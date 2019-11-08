@@ -1,0 +1,53 @@
+a:link {
+    color: #323330;
+}
+
+a:visited {
+    color: #323330;
+}
+
+body {
+    background-color: #F0DB4F;
+}
+
+div.about {
+    color: #323330;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.contact {
+    color: #323330;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.flex-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 5px;
+}
+
+div.header {
+    color: #323330;
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 2px;
+}
+
+div.image {
+    width: 300px;
+    padding: 10px;
+}
+
+div.links {
+    font-family: 'Roboto Mono', monospace;
+}
