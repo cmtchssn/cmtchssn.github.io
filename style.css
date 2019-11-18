@@ -45,6 +45,7 @@ div.header {
 
 div.image {
     width: 300px;
+    max-width: 100%;
     padding: 10px;
 }
 
