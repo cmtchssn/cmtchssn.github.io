@@ -44,11 +44,15 @@ div.header {
 }
 
 div.image {
-    width: 300px;
     max-width: 100%;
     padding: 10px;
 }
 
 div.links {
     font-family: 'Roboto Mono', monospace;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
