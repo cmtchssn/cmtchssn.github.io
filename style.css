@@ -15,6 +15,7 @@ body {
     text-align: center;
     padding: 10px;
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 
 .contact {
@@ -23,6 +24,7 @@ body {
     text-align: center;
     padding: 10px;
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 
 .cv {
@@ -38,7 +40,7 @@ body {
     padding: 5px;
     font-family: 'Catamaran', sans-serf;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 
@@ -48,7 +50,7 @@ body {
     text-align: justify;
     padding: 10px;
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     /*float: right*/
 }
 
@@ -108,6 +110,7 @@ img {
     padding: 14px 16px;
     color: #323330;
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 
 .nav-ul {
