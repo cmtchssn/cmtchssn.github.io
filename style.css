@@ -6,13 +6,6 @@ a:visited {
     color: #323330;
 }
 
-blockquote {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 body {
     background-color: #ffe449;
 }
@@ -34,13 +27,13 @@ body {
 
 .cv {
     color: #323330;
-    width: 600px;
+    /*width: 600px;*/
     padding: 10px;
 }
 
 .cvHead {
     color: #323330;
-    width: 90%;
+    /*width: 90%;*/
     text-align: left;
     padding: 5px;
     font-family: 'Catamaran', sans-serf;
@@ -48,15 +41,17 @@ body {
     font-size: 20px;
 }
 
+
 .cvBod {
     color: #323330;
-    width: 92%;
+    /*width: 92%;*/
     text-align: justify;
     padding: 10px;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    float: right
+    /*float: right*/
 }
+
 
 .flex-container {
     display: flex;
@@ -64,12 +59,17 @@ body {
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin: 5px;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 10vw;
+    max-width: 50vw;
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: 25% 50% 25%;
+    grid-template-columns: auto;
     justify-content: evenly;
     align-items: center;
 }
@@ -116,6 +116,7 @@ img {
     padding: 0;
     overflow: hidden;
 }
+
 
 p {
     display: block;
