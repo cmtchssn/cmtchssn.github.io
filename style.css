@@ -6,18 +6,25 @@ a:visited {
     color: #323330;
 }
 
+blockquote {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 body {
     background-color: #F0DB4F;
 }
 
-div.about {
+.about {
     color: #323330;
     text-align: center;
     padding: 10px;
     font-family: 'Roboto', sans-serif;
 }
 
-div.contact {
+.contact {
     color: #323330;
     width: 300px;
     text-align: center;
@@ -25,7 +32,33 @@ div.contact {
     font-family: 'Roboto', sans-serif;
 }
 
-div.flex-container {
+.cv {
+    color: #323330;
+    width: 600px;
+    padding: 10px;
+}
+
+.cvHead {
+    color: #323330;
+    width: 90%;
+    text-align: left;
+    padding: 5px;
+    font-family: 'Catamaran', sans-serf;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cvBod {
+    color: #323330;
+    width: 92%;
+    text-align: justify;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    float: right
+}
+
+.flex-container {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -34,8 +67,16 @@ div.flex-container {
     margin: 5px;
 }
 
-div.header {
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    justify-content: evenly;
+    align-items: center;
+}
+
+.header {
     color: #323330;
+    justify-content: center;
     text-align: center;
     font-family: 'Catamaran', sans-serif;
     font-size: 50px;
@@ -43,16 +84,43 @@ div.header {
     padding: 2px;
 }
 
-div.image {
+.image {
     max-width: 100%;
     padding: 10px;
 }
 
-div.links {
+.links {
     font-family: 'Roboto Mono', monospace;
 }
 
 img {
     max-width: 100%;
     height: auto;
+}
+
+.nav-li {
+    float: left;
+}
+
+.nav-li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    color: #323330;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+p {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
